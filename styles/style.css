@@ -74,6 +74,39 @@ ul {
     font-size: 24px;
 }
 
-.sub-image {
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 48px;
+    color: #1F2937;
+}
+
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 48px;
+}
+
+.image-text {
+    font-size: 18px;
+}
+
+.info-one-container,
+.info-two-container,
+.info-three-container,
+.info-four-container {
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image {
+    width: 250px;
+    border: 3px solid #3882F6;
+    border-radius: 10%
 }
