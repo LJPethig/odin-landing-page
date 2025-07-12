@@ -110,3 +110,25 @@ ul {
     border: 3px solid #3882F6;
     border-radius: 10%
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 210px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-text {
+    margin-bottom: 0;
+}
+
+.quote-author {
+    font-weight: 900;
+    margin: 0;
+    text-align: end;
+}
+
