@@ -47,7 +47,8 @@ ul {
     width: 600px;
 }
 
-.hero-signup-btn {
+.hero-signup-btn,
+.cta-signup-btn {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
@@ -132,3 +133,47 @@ ul {
     text-align: end;
 }
 
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 96px 160px;
+    padding: 48px 96px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+.cta-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-title {
+    font-weight: 700;
+}
+
+.cta-text {
+    color: #E5E7EB;
+}
+
+.cta-title,
+.cta-text {
+    margin: 2px;
+}
+
+.cta-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.cta-signup-btn {
+    height: 42px;
+    border: 2px solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 24px;
+    text-align: center;
+}
